@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic / Machines</title>
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const chapter = urlParams.get('chapter');
+        
+        if (chapter) {
+            fetch(`chapters/${chapter}.html`)
+                .then(response => response.text())
+                .then(html => {
+                    document.body.innerHTML += html;
+                })
+                .catch(_ => {
+                    fetch(`chapters/main.html`)
+                        .then(response => response.text())
+                        .then(html => {
+                            document.body.innerHTML += html;
+                        })
+                        .catch(error => {
+                            console.error('Error loading main chapter:', error);
+                        });
+                });
+        } else {
+            fetch(`chapters/main.html`)
+                .then(response => response.text())
+                .then(html => {
+                    document.body.innerHTML += html;
+                })
+                .catch(error => {
+                    console.error('Error loading main chapter:', error);
+                });
+        }
+        </script>
+</body>
+</html>
