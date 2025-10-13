@@ -3,3 +3,5 @@
 {"rule":"MISSING_COMMA_WITH_TOO","sentence":"^\\QThey too live in cities that are sparesly scattered around.\\E$"}
 {"rule":"MISSING_COMMA_WITH_TOO","sentence":"^\\QThey too live in cities that are sparsely scattered around.\\E$"}
 {"rule":"THE_FALL_SEASON","sentence":"^\\Q</p> <p> Being the Spring season, the humans of the border city have switched to the appropriate attire consisting of whatever comfortable shirt and underwear they could come by, and layers of animal leather robes stacked on top.\\E$"}
+{"rule":"WHEN_WHERE","sentence":"^\\QRepetitive word/phrase usage - Also good at catching times where I overuse words.\\E$"}
+{"rule":"COMMA_COMPOUND_SENTENCE","sentence":"^\\QThe president has called us so we need to leave.\"\\E$"}

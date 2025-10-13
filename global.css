@@ -78,6 +78,9 @@ p {
     line-height: 1.5rem;
     text-indent: 2rem;
 }
+p.unindent {
+    text-indent: 0rem;
+}
 h2 {
     font-size: 3rem;
     font-weight: 900;
@@ -85,4 +88,11 @@ h2 {
 }
 i {
     font-style: italic;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5rem;
+    gap: 0.5rem;
+    border-top: 1px solid;
 }
