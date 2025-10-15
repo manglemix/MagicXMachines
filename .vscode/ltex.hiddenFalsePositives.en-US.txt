@@ -6,3 +6,9 @@
 {"rule":"WHEN_WHERE","sentence":"^\\QRepetitive word/phrase usage - Also good at catching times where I overuse words.\\E$"}
 {"rule":"COMMA_COMPOUND_SENTENCE","sentence":"^\\QThe president has called us so we need to leave.\"\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QMost concerningly, her skin is slightly yellow.\\E$"}
+{"rule":"RETURN_BACK","sentence":"^\\QThe Shimmeron was peaceful, and all they had to do now was collect their data and return back to camp.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QHumanity and Machine have been at war for many many years, and when the humans were cornered into extinction they cultivated </p> <!-- <p> The forest is quiet, and the air is thick with moisture.\\E$"}
+{"rule":"BASE_BASIS","sentence":"^\\QThe Shimmeron was peaceful, and all they had to do now was collect their data and return back to the forward base.\\E$"}
+{"rule":"RETURN_BACK","sentence":"^\\QThe Shimmeron was peaceful, and all they had to do now was collect their data and return back to the forward base.\\E$"}
+{"rule":"COMMA_COMPOUND_SENTENCE","sentence":"^\\QI have a trinket here that might interest you but it's in my pocket.\\E$"}
+{"rule":"COMMA_COMPOUND_SENTENCE","sentence":"^\\QYour survival is also important to me, as you can attack these threats but I cannot.\"\\E$"}
